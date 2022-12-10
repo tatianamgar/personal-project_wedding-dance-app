@@ -1,0 +1,516 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Постановка свадебного танца Санкт-Петербург</title>
+    <meta name="description" content="Постановка свадебного танца">
+    <meta name="keywords" content="свадьба, танец, постановка, обучение, санкт-петерубрг">
+    <meta charset="utf-8">
+    <meta name="author" content="rix_designs">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename= 'images/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename= 'images/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename= 'images/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename= 'images/site.webmanifest') }}">
+
+    {#<link rel="shortcut icon" href="{{ url_for('static', filename= 'images/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename= 'images/apple-touch-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename= 'images/apple-touch-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename= 'images/apple-touch-icon-114x114.png') }}">#}
+
+    <!-- Stylesheets -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/bootstrap.css') }}" />
+    <!-- animation -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/animate.css') }}" />
+    <!--  Owl Carousel  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/owl.carousel.css') }}" />
+    <!-- icons -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/et-line-icons.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/font-awesome.min.css') }}" />
+    <!-- popup for portfolio -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/magnific-popup.css') }}" />
+    <!-- custom main stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/responsive.css') }}" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/BeerSlider.unmin.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/pricingTables.css') }}" />
+
+    <!--[if IE]>
+            <link rel="stylesheet" href="{{ url_for('static', filename= 'css/ie-custom.css') }}" />
+        <![endif]-->
+    <!--[if IE]>
+            <script src="{{ url_for('static', filename= 'js/html5shiv.js') }}"></script>
+        <![endif]-->
+</head>
+
+<body>
+   <!-- pre loader -->
+         <div class="preloader">
+          <img src="{{ url_for('static', filename= 'images/loader.gif') }}" alt="Loading...">
+        </div>
+   <!-- end of pre loader-->
+
+    <!-- navigation menu -->
+    <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav fix-nav nav-border-bottom no-transition" role="navigation">
+        <div class="container">
+            <div class="row">
+                <!-- logo -->
+                 <div class="col-md-3 col-sm-3 col-xs-6">
+                    <a class="white-logo" href="index.html">
+                        <img alt="" src="{{ url_for('static', filename= 'images/white-logo.png') }}" class="main-logo" />
+                    </a>
+                    <a class="color-logo" href="index.html">
+                        <img alt="" src="{{ url_for('static', filename= 'images/color-logo.png') }}" class="main-logo" />
+                    </a>
+                </div>
+                <!-- end logo -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-md-9 text-right">
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home" class="internal-link">главная</a></li>
+                            <li><a href="#about" class="internal-link">обо мне</a></li>
+                            <li><a href="#portfolio" class="internal-link">портфолио</a></li>
+                            <li><a href="#review" class="internal-link">отзывы</a></li>
+                            <li><a href="#contact" class="internal-link">контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navigation menu-->
+
+    <!-- hero image section -->
+    <section class="setting-parallax zero-padding img-parallax screen-resize">
+        <img class="img-parallax-bg" src="{{ url_for('static', filename= 'images/main_picture.jpg') }}" alt="" />
+    </section>
+    <!-- end hero image section -->
+
+    <!-- about section -->
+    <section id="about" class="aqua-bg xs-section">
+        <div class="container zero-padding-bottom">
+            <div class="row">
+                <!-- section title -->
+                <div class="col-md-12 text-center zero-padding">
+                    <h3 class="section-heading">обо мне</h3>
+                </div>
+                <!-- end section title -->
+                <div class="col-md-8 center-col text-center">
+                    <h4>Свадебный танец - один из самых трогательных, романтичных и запоминающихся фрагментов вашей свадьбы, и я помогу Вам подготовиться к нему качественно и в кратчайшие сроки. Опыт работы более 6 лет позволяет мне уверенно утверждать, что уже после первого занятия вы начнёте двигаться под музыку в слаженном танце, а через 5 занятий ваш неповторимый Первый танец будет полностью готов к исполнению и зрительским симпатиям.</h4>
+                </div>
+                <div class="col-md-6 col-sm-6 zero-padding-bottom position-relative center-col text-center">
+                    <a class="btn-white btn internal-link zero-margin-lr" href="#portfolio">view portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+
+    <!--portfolio-->
+    <section id="portfolio" class="sm-grid col-width gutter">
+        <div class="container">
+            <div class="row">
+                <!-- section title -->
+                <div class="col-md-12 text-center zero-padding">
+                    <h3 class="section-heading">portfolio</h3>
+                </div>
+                <!-- end section title -->
+            </div>
+            <div class="row margin-tp-btm-3 zero-margin-btm">
+                <div class="col-md-12">
+                        <!-- photography filter -->
+                        <ul class="nav-portfolio nav filter nav-tabs xs-text-center">
+                            <li class="nav active"><a href="#" data-filter="*">All</a> </li>
+                            <li class="nav"><a href="#" data-filter=".portrait">Portrait</a> </li>
+                            <li class="nav"><a href="#" data-filter=".engaged">engaged</a> </li>
+                            <li class="nav"><a href="#" data-filter=".wedding">Wedding</a> </li>
+                        </ul>
+                        <!-- end photography filter -->
+                </div>
+                <div class="overflow-hidden col-md-12 zero-padding grid-items">
+                    <div class="tab-content">
+                        <!-- photography filter grid -->
+                        <ul class="grid portfolio-popup photography-items">
+                            <!-- photography item -->
+                            <li class="wedding">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x1370" title=""><img src="http://placehold.it/900x1370" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x570" title=""><img src="http://placehold.it/900x570" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="wedding engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x1370" title=""><img src="http://placehold.it/900x1370" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x757" title=""><img src="http://placehold.it/900x757" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x757" title=""><img src="http://placehold.it/900x757" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="portrait wedding">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x570" title=""><img src="http://placehold.it/900x570" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x757" title=""><img src="http://placehold.it/900x757" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="engaged portrait">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x570" title=""><img src="http://placehold.it/900x570" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="wedding engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x1370" title=""><img src="http://placehold.it/900x1370" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="engaged portrait">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x1370" title=""><img src="http://placehold.it/900x1370" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x757" title=""><img src="http://placehold.it/900x757" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                            <!-- photography item -->
+                            <li class="portrait engaged">
+                                <figure>
+                                    <div class="img-portfolio">
+                                        <a href="http://placehold.it/900x570" title=""><img src="http://placehold.it/900x570" alt="" /> </a>
+                                    </div>
+                                </figure>
+                            </li>
+                            <!-- end photography item -->
+                        </ul>
+                        <!-- end photography grid -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end portfolio-->
+
+   <!--Before-After Slider-->
+   <section >
+       <div class="container">
+           <div id="slider" class="beer-slider" data-beer-label="before">
+               <img src="{{ url_for('static', filename= 'images/before.jpg') }}" alt="">
+               <div class="beer-reveal" data-beer-label="after">
+                   <img src="{{ url_for('static', filename= 'images/after.jpg') }}" alt="">
+               </div>
+           </div>
+       </div>
+
+   </section>
+   <!---->
+
+    <!-- hightlight section -->
+    <section class="bg-fix" style="background-image:url({{ url_for('static', filename= 'images/background.jpg') }});">
+        <div class="light-opacity aqua-bg"></div>
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-md-6 col-sm-10 text-center center-col wow fadeIn">
+                    <p class="hg-text">- Потанцуй со мной</p>
+                    <p class="hg-text"><br>- Здесь?</p>
+                    <a class="btn-white btn med-btn wow fadeInUp internal-link" href="#contact">- Да!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end highlight section -->
+
+    <!-- review section -->
+    <section id="review">
+        <div class="container">
+            <div class="row">
+                <!-- section title -->
+                <div class="col-md-12 text-center">
+                    <h3 class="section-heading">reviews</h3>
+                    <h5 class="text-gray">what clients say about me</h5>
+                </div>
+                <!-- end section title -->
+            </div>
+            <div class="row margin-top-8 xs-margin-top-10">
+                <!-- review -->
+                <div class="col-md-3 col-sm-6 text-center sm-margin-top-5 review-section">
+                    <img alt="" src="http://placehold.it/300x300">
+                    <i class="icon-quote text-light-gray icon-sm xs-margin-10 margin-top-8 display-block"></i>
+                    <p class="center-col">Vivamus elementum semper nisi evnean vulputate eleifend tellus. Ettitor eu consequat vita eleifend ac enim.</p>
+                    <div class="name text-aqua">Ricky Dravid<span class="text-gray text-cap"> - Dell</span></div>
+                </div>
+                <!-- end review -->
+                <!-- review -->
+                <div class="col-md-3 col-sm-6 text-center xs-margin-top-30 sm-margin-top-5 review-section">
+                    <img alt="" src="http://placehold.it/300x300">
+                    <i class="icon-quote text-light-gray icon-sm xs-margin-10 margin-top-8 display-block"></i>
+                    <p class="center-col">Vivamus elementum semper nisi evnean vulputate eleifend tellus. Ettitor eu consequat vita eleifend ac enim.</p>
+                    <div class="name text-aqua">Emily RK<span class="text-gray text-cap"> - FireStone</span></div>
+                </div>
+                <!-- end review -->
+                <!-- review -->
+                <div class="col-md-3 col-sm-6 text-center xs-margin-top-30 sm-margin-top-5 review-section">
+                    <img alt="" src="http://placehold.it/300x300">
+                    <i class="icon-quote text-light-gray icon-sm xs-margin-10 margin-top-8 display-block"></i>
+                    <p class="center-col">Vivamus elementum semper nisi evnean vulputate eleifend tellus. Ettitor eu consequat vita eleifend ac enim.</p>
+                    <div class="name text-aqua">John Hoggard<span class="text-gray text-cap"> - Yahoo</span></div>
+                </div>
+                <!-- end review -->
+                <!-- review -->
+                <div class="col-md-3 col-sm-6 text-center xs-margin-top-30 sm-margin-top-5 review-section">
+                    <img alt="" src="http://placehold.it/300x300">
+                    <i class="icon-quote text-light-gray icon-sm margin-top-8 display-block"></i>
+                    <p class="center-col">Vivamus elementum semper nisi evnean vulputate eleifend tellus. Ettitor eu consequat vita eleifend ac enim.</p>
+                    <div class="name text-aqua">Alize Havard<span class="text-gray text-cap"> - McKesson</span></div>
+                </div>
+                <!-- end review -->
+            </div>
+        </div>
+    </section>
+    <!-- end review section -->
+
+    <!-- instagram section -->
+    <section class="aqua-bg">
+        <div class="container">
+            <div class="row">
+                <!-- section title -->
+                <div class="col-md-12 text-center zero-padding">
+                    <h3 class="section-heading">instagram</h3>
+                    <h5 class="text-gray">latest wedding event shots</h5>
+                </div>
+                <!-- end section title -->
+            </div>
+            <div class="row margin-top-5 sm-text-center xs-center-text">
+                <!-- instagram images -->
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-9ac508da-a840-4879-a848-e48290a4ac84"></div>
+                {#<div id="owl-insta" class="owl-no-pagination light-pagination xs-margin-top7">
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                    <div class="item"><img src="http://placehold.it/800x500" alt="" /></div>
+                </div>#}
+                <!-- end instagram images -->
+            </div>
+        </div>
+    </section>
+    <!-- end instagram section -->
+
+   <!--Pricing Tables-->
+   <section id="pricingTableSection">
+       <div class="container">
+           <div class="pricingTable">
+              <h2 class="pricingTable-title">Выберите Ваш план занятий</h2>
+              <h3 class="pricingTable-subtitle"></h3>
+
+              <ul class="pricingTable-firstTable">
+                <li class="pricingTable-firstTable_table">
+                  <h1 class="pricingTable-firstTable_table__header">Экспресс постановка</h1>
+                  <p class="pricingTable-firstTable_table__pricing"><span></span><span>3 000</span><span>₽</span></p>
+                  <p class="pricingTable-firstTable_table__subpricing"><span>1 500</span><span> ₽ / час</span></p>
+                  <ul class="pricingTable-firstTable_table__options">
+                    <li>2 часа занятий</li>
+                    <li>Консультация</li>
+                    <li>Видео-материал с занятия</li>
+                  </ul>
+                  <div class="pricingTable-firstTable_table__getstart">Заказать</div>
+                </li><li class="pricingTable-firstTable_table">
+                  <h1 class="pricingTable-firstTable_table__header">Стандарт</h1>
+                  <p class="pricingTable-firstTable_table__pricing"><span></span><span>6 000</span><span>₽</span></p>
+                  <p class="pricingTable-firstTable_table__subpricing"><span>1 200</span><span> ₽ / час</span></p>
+                  <ul class="pricingTable-firstTable_table__options">
+                    <li>5 часов занятий</li>
+                    <li>Консультация</li>
+                    <li>Видео-материал с занятий</li>
+                    <li>Выездная репетиция</li>
+                  </ul>
+                  <div class="pricingTable-firstTable_table__getstart">Заказать</div>
+                </li><li class="pricingTable-firstTable_table">
+                  <h1 class="pricingTable-firstTable_table__header">Идеал</h1>
+                  <p class="pricingTable-firstTable_table__pricing"><span></span><span>12 000</span><span>₽</span></p>
+                  <p class="pricingTable-firstTable_table__subpricing"><span>1 100</span><span> ₽ / час</span></p>
+                  <ul class="pricingTable-firstTable_table__options">
+                    <li>11 часов занятий</li>
+                    <li>Консультация</li>
+                    <li>Видео-материал с занятий</li>
+                    <li>Выездная репетиция</li>
+                  </ul>
+                  <div class="pricingTable-firstTable_table__getstart">Заказать</div>
+                </li>
+              </ul>
+            </div>
+       </div>
+   </section>
+   <!---->
+
+    <!-- contact us section -->
+    <section id="contact" class="xs-section">
+        <div class="container">
+            <div class="row">
+             <!-- section title -->
+                <div class="col-md-12 text-center zero-padding">
+                    <h3 class="section-heading">Записаться</h3>
+                </div>
+             <!-- end section title -->
+            </div>
+            <div class="row">
+                <div class="col-md-9 text-center center-col">
+                     <h3 class="margin-tp-btm-2 font-weight-500 text-gray contact-text zero-margin-btm">Для записи на занятия <br> напишите мне или позвоните по номеру<br> <span class="title-sm letter-spacing2 text-gray">+7.900.6257273</span> </h3>
+                </div>
+            </div>
+            <div class="row margin-tp-btm-2">
+                <!-- form -->
+                <form id="contactusform" action="javascript:void(0)" method="post">
+                    <div class="col-md-6 col-sm-12 text-center center-col xs-margin-btm-10">
+                        <div id="alert" class="zero-lr-margin"></div>
+                        <input name="name" type="text" placeholder="Имя" />
+                        <input name="email" type="text" placeholder="Email" />
+                        <textarea name="comment" placeholder="Расскажите о себе..."></textarea>
+                        <input id="btn-contact" name="send" type="button" value="отправить" class="zero-margin-top no-margin-left-right btn btn-aqua zero-margin-lr">
+                    </div>
+                </form>
+                <!-- end form -->
+            </div>
+        </div>
+    </section>
+    <!-- end contact us section -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container border-top margin-top-5 footer-btm">
+            <div class="row  margin-tp-btm-3">
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center icons-footer xs-text-center xs-margin-bottom-1">
+                    <!-- social media -->
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <!-- end social media -->
+                </div>
+            </div>
+        </div>
+
+    <!-- scroll to top -->
+    <a href="javascript:;" class="scrollTop"> <i class="fa fa-angle-up"> </i> </a>
+    <!-- end scroll to top -->
+    </footer>
+    <!-- end footer -->
+
+    <!-- Javascripts -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.easing.1.3.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.viewport.mini.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.appear.js') }}"></script>
+    <!-- modernizr  -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/modernizr.js') }}"></script>
+    <!-- bootstrap  -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/bootstrap.js') }}"></script>
+    <!-- smooth scrolling  -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/smooth-scroll.js') }}"></script>
+    <!-- skrollr  -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/skrollr.min.js') }}"></script>
+    <!-- owl Carousel  -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/owl.carousel.min.js') }}"></script>
+    <!-- animations -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/wow.min.js') }}"></script>
+    <!-- page scroll -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/page-scroll.js') }}"></script>
+    <!-- parallax -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.parallax-1.1.3.js') }}"></script>
+    <!-- portfolio  -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.magnific-popup.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/img-popup.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/jquery.isotope.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/imagesloaded.pkgd.min.js') }}"></script>
+    <!-- custom main js file -->
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/custom.js') }}"></script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename= 'js/BeerSlider.unmin.js') }}"></script>
+</body>
+
+</html>
